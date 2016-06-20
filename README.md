@@ -6,6 +6,7 @@ java应用配置中心。实现java web应用的properties配置实时更新，�
 - 基于jdk1.7
 - [spring](https://github.com/spring-projects/spring-framework)
 - [jackson](https://github.com/codehaus/jackson)
+
 # 实现思路
 - 利用java7中的watchservice实时监控配置文件的变化，利用监听方式实时刷新系统的properties
 - 增加对国图特有的配置路径的配置文件的支持。只需要在helium.json中配置需要监控的配置文件即可。
