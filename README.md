@@ -16,3 +16,11 @@ java应用配置中心。实现java web应用的properties配置实时更新，�
 # 使用方法：
 
 添加maven依赖：
+
+
+    <dependency>
+        <groupId>cn.gtmap</groupId>
+        <artifactId>helium-client</artifactId>
+        <version>1.0</version>
+    </dependency>
+
